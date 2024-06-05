@@ -37,7 +37,5 @@ body {
 
 .card p {
     padding-inline: 1.5rem;
-    font-size: 15;
-    font-weight: 400;
     color: rgb(154,159,170);
 }
