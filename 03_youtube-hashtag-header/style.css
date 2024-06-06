@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.hashtag-header {
+    background-color: rgb(6,95,212);
+    padding: 4rem;
+    background-image: url(./images/background.png);
+    background-size: 350px;
+    background-position: 100% 55%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hashtag-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.hashtag-header span {
+    font-size: 2rem;
+}
+
+.hashtag-header img {
+    vertical-align: middle;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+img + img {   /* Adjacent Sibling Selector */
+    margin-left: -1rem;
+}
